@@ -1,0 +1,30 @@
+{
+  "qInfo": {
+    "qId": "fBdFsqD",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "GT_PMS_IMI_ANS_DEA-2year",
+    "qDef": "[GT_PMS_IMI_ANS_DEA.2019]/100",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qLabelExpression": "SysTwoYearsAgo",
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "coloring": {
+      "baseColor": {
+        "color": "#4D771C",
+        "index": -1
+      }
+    }
+  },
+  "qMetaDef": {
+    "title": "GT_PMS_IMI_ANS_DEA-2year",
+    "description": "",
+    "tags": []
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "qInfo": {
+    "qId": "f14ef2c9-2601-4083-b4ae-66894da8941c",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "GT_PMS_IMI_SAT_EFF-1Year",
+    "qDef": "[GT_PMS_IMI_SAT_EFF.2020]/100",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qLabelExpression": "SysLastYear",
+    "qNumFormat": {
+      "qType": "F",
+      "qnDec": 2,
+      "qUseThou": 0,
+      "qFmt": "0%",
+      "qDec": ".",
+      "qThou": ","
+    },
+    "coloring": {
+      "baseColor": {
+        "color": "#395815",
+        "index": -1
+      }
+    },
+    "isCustomFormatted": false
+  },
+  "qMetaDef": {
+    "title": "GT_PMS_IMI_SAT_EFF-1Year",
+    "description": "",
+    "tags": []
+  }
+}

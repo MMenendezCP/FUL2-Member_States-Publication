@@ -1,0 +1,561 @@
+///$tab Countries
+// ------ Austria -------------
+
+
+[Austria]:
+LOAD
+	[x1val] 						AS [GT_PMS_TRI_AT_Sector],
+	[y1val] 						AS [GT_PMS_TRI_AT.2020]
+
+where [x1val] <> 'Sector';
+
+LIB CONNECT TO '$(text_connection)REST_PUB-GT_PMS_TRI_AT.csv';
+
+SQL SELECT 
+	"x1val",
+	"y1val"
+FROM CSV (header on, delimiter ",", quote """") "CSV_source";
+
+
+// ------ Belgium -------------
+
+
+[Belgium]:
+LOAD
+	[x1val] 						AS [GT_PMS_TRI_BE_Sector],
+	[y1val] 						AS [GT_PMS_TRI_BE.2020]
+
+where [x1val] <> 'Sector';
+
+LIB CONNECT TO '$(text_connection)REST_PUB-GT_PMS_TRI_BE.csv';
+
+SQL SELECT 
+	"x1val",
+	"y1val"
+FROM CSV (header on, delimiter ",", quote """") "CSV_source";
+
+
+// ------ Bulgaria -------------
+
+
+[Bulgaria]:
+LOAD
+	[x1val] 						AS [GT_PMS_TRI_BG_Sector],
+	[y1val] 						AS [GT_PMS_TRI_BG.2020]
+
+where [x1val] <> 'Sector';
+
+LIB CONNECT TO '$(text_connection)REST_PUB-GT_PMS_TRI_BG.csv';
+
+SQL SELECT 
+	"x1val",
+	"y1val"
+FROM CSV (header on, delimiter ",", quote """") "CSV_source";
+
+
+// ------ Croatia -------------
+
+
+[Croatia]:
+LOAD
+	[x1val] 						AS [GT_PMS_TRI_HR_Sector],
+	[y1val] 						AS [GT_PMS_TRI_HR.2020]
+
+where [x1val] <> 'Sector';
+
+LIB CONNECT TO '$(text_connection)REST_PUB-GT_PMS_TRI_HR.csv';
+
+SQL SELECT 
+	"x1val",
+	"y1val"
+FROM CSV (header on, delimiter ",", quote """") "CSV_source";
+
+
+// ------ Cyprus -------------
+
+
+[Cyprus]:
+LOAD
+	[x1val] 						AS [GT_PMS_TRI_CY_Sector],
+	[y1val] 						AS [GT_PMS_TRI_CY.2020]
+
+where [x1val] <> 'Sector';
+    
+LIB CONNECT TO '$(text_connection)REST_PUB-GT_PMS_TRI_CY.csv';
+
+SQL SELECT 
+	"x1val",
+	"y1val"
+FROM CSV (header on, delimiter ",", quote """") "CSV_source";
+
+
+// ------ Czechia -------------
+
+
+[Czechia]:
+LOAD
+	[x1val] 						AS [GT_PMS_TRI_CZ_Sector],
+	[y1val] 						AS [GT_PMS_TRI_CZ.2020]
+
+where [x1val] <> 'Sector';
+
+LIB CONNECT TO '$(text_connection)REST_PUB-GT_PMS_TRI_CZ.csv';
+
+SQL SELECT 
+	"x1val",
+	"y1val"
+FROM CSV (header on, delimiter ",", quote """") "CSV_source";
+
+
+// ------ Denmark -------------
+
+
+[Denmark]:
+LOAD
+	[x1val] 						AS [GT_PMS_TRI_DK_Sector],
+	[y1val] 						AS [GT_PMS_TRI_DK.2020]
+
+where [x1val] <> 'Sector';
+
+LIB CONNECT TO '$(text_connection)REST_PUB-GT_PMS_TRI_DK.csv';
+
+SQL SELECT 
+	"x1val",
+	"y1val"
+FROM CSV (header on, delimiter ",", quote """") "CSV_source";
+
+
+// ------ Estonia -------------
+
+
+[Estonia]:
+LOAD
+	[x1val] 						AS [GT_PMS_TRI_EE_Sector],
+	[y1val] 						AS [GT_PMS_TRI_EE.2020]
+
+where [x1val] <> 'Sector';
+
+LIB CONNECT TO '$(text_connection)REST_PUB-GT_PMS_TRI_EE.csv';
+
+SQL SELECT 
+	"x1val",
+	"y1val"
+FROM CSV (header on, delimiter ",", quote """") "CSV_source";
+
+
+// ------ Finland -------------
+
+
+[Finland]:
+LOAD
+	[x1val] 						AS [GT_PMS_TRI_FI_Sector],
+	[y1val] 						AS [GT_PMS_TRI_FI.2020]
+
+where [x1val] <> 'Sector';
+
+LIB CONNECT TO '$(text_connection)REST_PUB-GT_PMS_TRI_FI.csv';
+
+SQL SELECT 
+	"x1val",
+	"y1val"
+FROM CSV (header on, delimiter ",", quote """") "CSV_source";
+
+
+// ------ France -------------
+
+
+[France]:
+LOAD
+	[x1val] 						AS [GT_PMS_TRI_FR_Sector],
+	[y1val] 						AS [GT_PMS_TRI_FR.2020]
+
+where [x1val] <> 'Sector';
+
+LIB CONNECT TO '$(text_connection)REST_PUB-GT_PMS_TRI_FR.csv';
+
+SQL SELECT 
+	"x1val",
+	"y1val"
+FROM CSV (header on, delimiter ",", quote """") "CSV_source";
+
+
+// ------ Germany -------------
+
+
+[Germany]:
+LOAD
+	[x1val] 						AS [GT_PMS_TRI_DE_Sector],
+	[y1val] 						AS [GT_PMS_TRI_DE.2020]
+
+where [x1val] <> 'Sector';
+
+LIB CONNECT TO '$(text_connection)REST_PUB-GT_PMS_TRI_DE.csv';
+
+SQL SELECT 
+	"x1val",
+	"y1val"
+FROM CSV (header on, delimiter ",", quote """") "CSV_source";
+
+
+// ------ Greece -------------
+
+
+[Greece]:
+LOAD
+	[x1val] 						AS [GT_PMS_TRI_EL_Sector],
+	[y1val] 						AS [GT_PMS_TRI_EL.2020]
+
+where [x1val] <> 'Sector';
+
+LIB CONNECT TO '$(text_connection)REST_PUB-GT_PMS_TRI_EL.csv';
+
+SQL SELECT 
+	"x1val",
+	"y1val"
+FROM CSV (header on, delimiter ",", quote """") "CSV_source";
+
+
+// ------ Hungary -------------
+
+
+[Hungary]:
+LOAD
+	[x1val] 						AS [GT_PMS_TRI_HU_Sector],
+	[y1val] 						AS [GT_PMS_TRI_HU.2020]
+
+where [x1val] <> 'Sector';
+
+LIB CONNECT TO '$(text_connection)REST_PUB-GT_PMS_TRI_HU.csv';
+
+SQL SELECT 
+	"x1val",
+	"y1val"
+FROM CSV (header on, delimiter ",", quote """") "CSV_source";
+
+
+// ------ Ireland -------------
+
+
+[Ireland]:
+LOAD
+	[x1val] 						AS [GT_PMS_TRI_IE_Sector],
+	[y1val] 						AS [GT_PMS_TRI_IE.2020]
+
+where [x1val] <> 'Sector';
+
+LIB CONNECT TO '$(text_connection)REST_PUB-GT_PMS_TRI_IE.csv';
+
+SQL SELECT 
+	"x1val",
+	"y1val"
+FROM CSV (header on, delimiter ",", quote """") "CSV_source";
+
+
+// ------ Italy -------------
+
+
+[Italy]:
+LOAD
+	[x1val] 						AS [GT_PMS_TRI_IT_Sector],
+	[y1val] 						AS [GT_PMS_TRI_IT.2020]
+
+where [x1val] <> 'Sector';
+
+LIB CONNECT TO '$(text_connection)REST_PUB-GT_PMS_TRI_IT.csv';
+
+SQL SELECT 
+	"x1val",
+	"y1val"
+FROM CSV (header on, delimiter ",", quote """") "CSV_source";
+
+
+// ------ Latvia -------------
+
+
+[Latvia]:
+LOAD
+	[x1val] 						AS [GT_PMS_TRI_LV_Sector],
+	[y1val] 						AS [GT_PMS_TRI_LV.2020]
+
+where [x1val] <> 'Sector';
+
+LIB CONNECT TO '$(text_connection)REST_PUB-GT_PMS_TRI_LV.csv';
+
+SQL SELECT 
+	"x1val",
+	"y1val"
+FROM CSV (header on, delimiter ",", quote """") "CSV_source";
+
+
+// ------ Lithuania -------------
+
+
+[Lithuania]:
+LOAD
+	[x1val] 						AS [GT_PMS_TRI_LT_Sector],
+	[y1val] 						AS [GT_PMS_TRI_LT.2020]
+
+where [x1val] <> 'Sector';
+
+LIB CONNECT TO '$(text_connection)REST_PUB-GT_PMS_TRI_LT.csv';
+
+SQL SELECT 
+	"x1val",
+	"y1val"
+FROM CSV (header on, delimiter ",", quote """") "CSV_source";
+
+
+// ------ Luxembourg -------------
+
+
+[Luxembourg]:
+LOAD
+	[x1val] 						AS [GT_PMS_TRI_LU_Sector],
+	[y1val] 						AS [GT_PMS_TRI_LU.2020]
+
+where [x1val] <> 'Sector';
+
+LIB CONNECT TO '$(text_connection)REST_PUB-GT_PMS_TRI_LU.csv';
+
+SQL SELECT 
+	"x1val",
+	"y1val"
+FROM CSV (header on, delimiter ",", quote """") "CSV_source";
+
+
+// ------ Malta -------------
+
+
+[Malta]:
+LOAD
+	[x1val] 						AS [GT_PMS_TRI_MT_Sector],
+	[y1val] 						AS [GT_PMS_TRI_MT.2020]
+
+where [x1val] <> 'Sector';
+
+LIB CONNECT TO '$(text_connection)REST_PUB-GT_PMS_TRI_MT.csv';
+
+SQL SELECT 
+	"x1val",
+	"y1val"
+FROM CSV (header on, delimiter ",", quote """") "CSV_source";
+
+
+// ------ Netherlands -------------
+
+
+[Netherlands]:
+LOAD
+	[x1val] 						AS [GT_PMS_TRI_NL_Sector],
+	[y1val] 						AS [GT_PMS_TRI_NL.2020]
+
+where [x1val] <> 'Sector';
+
+LIB CONNECT TO '$(text_connection)REST_PUB-GT_PMS_TRI_NL.csv';
+
+SQL SELECT 
+	"x1val",
+	"y1val"
+FROM CSV (header on, delimiter ",", quote """") "CSV_source";
+
+
+// ------ Poland -------------
+
+
+[Poland]:
+LOAD
+	[x1val] 						AS [GT_PMS_TRI_PL_Sector],
+	[y1val] 						AS [GT_PMS_TRI_PL.2020]
+
+where [x1val] <> 'Sector';
+
+LIB CONNECT TO '$(text_connection)REST_PUB-GT_PMS_TRI_PL.csv';
+
+SQL SELECT 
+	"x1val",
+	"y1val"
+FROM CSV (header on, delimiter ",", quote """") "CSV_source";
+
+
+// ------ Portugal -------------
+
+
+[Portugal]:
+LOAD
+	[x1val] 						AS [GT_PMS_TRI_PT_Sector],
+	[y1val] 						AS [GT_PMS_TRI_PT.2020]
+
+where [x1val] <> 'Sector';
+
+LIB CONNECT TO '$(text_connection)REST_PUB-GT_PMS_TRI_PT.csv';
+
+SQL SELECT 
+	"x1val",
+	"y1val"
+FROM CSV (header on, delimiter ",", quote """") "CSV_source";
+
+
+// ------ Romania -------------
+
+
+[Romania]:
+LOAD
+	[x1val] 						AS [GT_PMS_TRI_RO_Sector],
+	[y1val] 						AS [GT_PMS_TRI_RO.2020]
+
+where [x1val] <> 'Sector';
+
+LIB CONNECT TO '$(text_connection)REST_PUB-GT_PMS_TRI_RO.csv';
+
+SQL SELECT 
+	"x1val",
+	"y1val"
+FROM CSV (header on, delimiter ",", quote """") "CSV_source";
+
+
+// ------ Slovakia -------------
+
+
+[Slovakia]:
+LOAD
+	[x1val] 						AS [GT_PMS_TRI_SK_Sector],
+	[y1val] 						AS [GT_PMS_TRI_SK.2020]
+
+where [x1val] <> 'Sector';
+
+LIB CONNECT TO '$(text_connection)REST_PUB-GT_PMS_TRI_SK.csv';
+
+SQL SELECT 
+	"x1val",
+	"y1val"
+FROM CSV (header on, delimiter ",", quote """") "CSV_source";
+
+
+// ------ Slovenia -------------
+
+
+[Slovenia]:
+LOAD
+	[x1val] 						AS [GT_PMS_TRI_SI_Sector],
+	[y1val] 						AS [GT_PMS_TRI_SI.2020]
+
+where [x1val] <> 'Sector';
+
+LIB CONNECT TO '$(text_connection)REST_PUB-GT_PMS_TRI_SI.csv';
+
+SQL SELECT 
+	"x1val",
+	"y1val"
+FROM CSV (header on, delimiter ",", quote """") "CSV_source";
+
+
+// ------ Spain -------------
+
+
+[Spain]:
+LOAD
+	[x1val] 						AS [GT_PMS_TRI_ES_Sector],
+	[y1val] 						AS [GT_PMS_TRI_ES.2020]
+
+where [x1val] <> 'Sector';
+
+LIB CONNECT TO '$(text_connection)REST_PUB-GT_PMS_TRI_ES.csv';
+
+SQL SELECT 
+	"x1val",
+	"y1val"
+FROM CSV (header on, delimiter ",", quote """") "CSV_source";
+
+
+// ------ Sweden -------------
+
+
+[Sweden]:
+LOAD
+	[x1val] 						AS [GT_PMS_TRI_SE_Sector],
+	[y1val] 						AS [GT_PMS_TRI_SE.2020]
+
+where [x1val] <> 'Sector';
+
+LIB CONNECT TO '$(text_connection)REST_PUB-GT_PMS_TRI_SE.csv';
+
+SQL SELECT 
+	"x1val",
+	"y1val"
+FROM CSV (header on, delimiter ",", quote """") "CSV_source";
+
+
+// ------ UK -------------
+
+/*
+
+
+[UK]:
+LOAD
+	[x1val] 						AS [GT_PMS_TRI_UK_Sector],
+	[y1val] 						AS [GT_PMS_TRI_UK.2020]
+
+where [x1val] <> 'Sector';
+
+LIB CONNECT TO '$(text_connection)REST_PUB-GT_PMS_TRI_UK.csv';
+
+SQL SELECT 
+	"x1val",
+	"y1val"
+FROM CSV (header on, delimiter ",", quote """") "CSV_source";
+
+*/
+
+
+// ------ Iceland -------------
+
+
+[Iceland]:
+LOAD
+	[x1val] 						AS [GT_PMS_TRI_IS_Sector],
+	[y1val] 						AS [GT_PMS_TRI_IS.2020]
+
+where [x1val] <> 'Sector';
+
+LIB CONNECT TO '$(text_connection)REST_PUB-GT_PMS_TRI_IS.csv';
+
+SQL SELECT 
+	"x1val",
+	"y1val"
+FROM CSV (header on, delimiter ",", quote """") "CSV_source";
+
+
+// ------ Liechtenstein -------------
+
+
+[Liechtenstein]:
+LOAD
+	[x1val] 						AS [GT_PMS_TRI_LI_Sector],
+	[y1val] 						AS [GT_PMS_TRI_LI.2020]
+
+where [x1val] <> 'Sector';
+
+LIB CONNECT TO '$(text_connection)REST_PUB-GT_PMS_TRI_LI.csv';
+
+SQL SELECT 
+	"x1val",
+	"y1val"
+FROM CSV (header on, delimiter ",", quote """") "CSV_source";
+
+
+// ------ Norway -------------
+
+
+[Norway]:
+LOAD
+	[x1val] 						AS [GT_PMS_TRI_NO_Sector],
+	[y1val] 						AS [GT_PMS_TRI_NO.2020]
+
+where [x1val] <> 'Sector';
+
+LIB CONNECT TO '$(text_connection)REST_PUB-GT_PMS_TRI_NO.csv';
+
+SQL SELECT 
+	"x1val",
+	"y1val"
+FROM CSV (header on, delimiter ",", quote """") "CSV_source";

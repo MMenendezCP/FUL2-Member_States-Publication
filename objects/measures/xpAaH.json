@@ -1,0 +1,30 @@
+{
+  "qInfo": {
+    "qId": "xpAaH",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "GT_PMS_IMI_SAT_TIM-3years",
+    "qDef": "[GT_PMS_IMI_SAT_TIM.2018]/100",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qLabelExpression": "SysTreeYearsAgo",
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "coloring": {
+      "baseColor": {
+        "color": "#87D11A",
+        "index": -1
+      }
+    }
+  },
+  "qMetaDef": {
+    "title": "GT_PMS_IMI_SAT_TIM-3years",
+    "description": "",
+    "tags": []
+  }
+}

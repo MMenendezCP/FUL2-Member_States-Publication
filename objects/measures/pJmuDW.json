@@ -1,0 +1,30 @@
+{
+  "qInfo": {
+    "qId": "pJmuDW",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "GT_PMS_IMI_SPE_ANS_REQ-4Year",
+    "qDef": "[GT_PMS_IMI_SPE_ANS_REQ.2017]/100",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qLabelExpression": "SysFourYearsAgo",
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "coloring": {
+      "baseColor": {
+        "color": "#BBE684",
+        "index": -1
+      }
+    }
+  },
+  "qMetaDef": {
+    "title": "GT_PMS_IMI_SPE_ANS_REQ-4Year",
+    "description": "",
+    "tags": []
+  }
+}

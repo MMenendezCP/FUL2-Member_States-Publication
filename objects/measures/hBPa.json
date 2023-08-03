@@ -1,0 +1,34 @@
+{
+  "qInfo": {
+    "qId": "hBPa",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "GT_PMS_IMI_ONE_WEE-3year",
+    "qDef": "[GT_PMS_IMI_ONE_WEE.2018]/100",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qLabelExpression": "SysTreeYearsAgo",
+    "qNumFormat": {
+      "qType": "F",
+      "qnDec": 2,
+      "qUseThou": 0,
+      "qFmt": "0%",
+      "qDec": ".",
+      "qThou": ","
+    },
+    "coloring": {
+      "baseColor": {
+        "color": "#87D11A",
+        "index": -1
+      }
+    },
+    "isCustomFormatted": false
+  },
+  "qMetaDef": {
+    "title": "GT_PMS_IMI_ONE_WEE-3year",
+    "description": "",
+    "tags": []
+  }
+}

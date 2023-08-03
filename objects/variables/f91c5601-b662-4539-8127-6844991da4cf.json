@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "f91c5601-b662-4539-8127-6844991da4cf",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "text_connection",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "NEWEDIT_",
+  "qIsScriptCreated": true
+}

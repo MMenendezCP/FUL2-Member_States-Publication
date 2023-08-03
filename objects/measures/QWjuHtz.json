@@ -1,0 +1,29 @@
+{
+  "qInfo": {
+    "qId": "QWjuHtz",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Agriculture, Fishing and Foodstuffs",
+    "qDef": "[GT_PMS_TRI_AGR.2019]",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "coloring": {
+      "baseColor": {
+        "color": "#f93f17",
+        "index": 10
+      }
+    }
+  },
+  "qMetaDef": {
+    "title": "Agriculture, Fishing and Foodstuffs",
+    "description": "",
+    "tags": []
+  }
+}

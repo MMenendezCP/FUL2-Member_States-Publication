@@ -1,0 +1,14 @@
+{
+  "qInfo": {
+    "qId": "758990bc-d21f-4407-a07c-1d022f1a048f",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "currentName",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "GT_PMS_TRA_ALL"
+}

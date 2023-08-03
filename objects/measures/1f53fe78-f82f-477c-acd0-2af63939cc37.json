@@ -1,0 +1,35 @@
+{
+  "qInfo": {
+    "qId": "1f53fe78-f82f-477c-acd0-2af63939cc37",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "GT_PMS_IMI_ONE_WEE-1year",
+    "qDef": "[GT_PMS_IMI_ONE_WEE.2020]/100",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qLabelExpression": "SysLastYear",
+    "qNumFormat": {
+      "qType": "F",
+      "qnDec": 2,
+      "qUseThou": 0,
+      "qFmt": "0%",
+      "qDec": ".",
+      "qThou": ","
+    },
+    "coloring": {
+      "baseColor": {
+        "color": "#395815",
+        "index": -1
+      }
+    },
+    "isCustomFormatted": false,
+    "numFormatFromTemplate": true
+  },
+  "qMetaDef": {
+    "title": "GT_PMS_IMI_ONE_WEE-1year",
+    "description": "PMS_IMI_ONE_WEE",
+    "tags": []
+  }
+}

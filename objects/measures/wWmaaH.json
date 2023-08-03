@@ -1,0 +1,29 @@
+{
+  "qInfo": {
+    "qId": "wWmaaH",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "cHEMISTRY",
+    "qDef": "[GT_PMS_TRI_CHE.2019]\n",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "coloring": {
+      "baseColor": {
+        "color": "#f8981d",
+        "index": 9
+      }
+    }
+  },
+  "qMetaDef": {
+    "title": "cHEMISTRY",
+    "description": "",
+    "tags": []
+  }
+}

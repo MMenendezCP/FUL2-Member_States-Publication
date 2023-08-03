@@ -1,0 +1,35 @@
+{
+  "qInfo": {
+    "qId": "188089ba-e127-402a-b9f5-29f0eabb6dcd",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "GT_PMS_IMI_ANS_DEA-1year",
+    "qDef": "[GT_PMS_IMI_ANS_DEA.2020]/100",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qLabelExpression": "SysLastYear",
+    "qNumFormat": {
+      "qType": "F",
+      "qnDec": 2,
+      "qUseThou": 0,
+      "qFmt": "0%",
+      "qDec": ".",
+      "qThou": ","
+    },
+    "coloring": {
+      "baseColor": {
+        "color": "#395815",
+        "index": -1
+      }
+    },
+    "isCustomFormatted": false,
+    "numFormatFromTemplate": true
+  },
+  "qMetaDef": {
+    "title": "GT_PMS_IMI_ANS_DEA-1year",
+    "description": "IMI_ANS_DEA",
+    "tags": []
+  }
+}

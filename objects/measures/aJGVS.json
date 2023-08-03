@@ -1,0 +1,30 @@
+{
+  "qInfo": {
+    "qId": "aJGVS",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "GT_PMS_IMI_SPE_ANS_REQ-2year",
+    "qDef": "[GT_PMS_IMI_SPE_ANS_REQ.2019]",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qLabelExpression": "SysTwoYearsAgo",
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "coloring": {
+      "baseColor": {
+        "color": "#4D771C",
+        "index": -1
+      }
+    }
+  },
+  "qMetaDef": {
+    "title": "GT_PMS_IMI_SPE_ANS_REQ-2year",
+    "description": "",
+    "tags": []
+  }
+}

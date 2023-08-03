@@ -1,0 +1,144 @@
+{
+  "qInfo": {
+    "qId": "QpQwPt",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "=GT_PMS_TRI_Sector"
+    ],
+    "qFieldLabels": [
+      "Sector_Tri_ALL_Colors"
+    ],
+    "title": "Sector_Tri_ALL_Colors",
+    "coloring": {
+      "changeHash": "0.11435128258096827",
+      "colorMapRef": "QpQwPt"
+    }
+  },
+  "qMetaDef": {
+    "title": "Sector_Tri_ALL_Colors",
+    "description": "",
+    "tags": []
+  },
+  "_ColorMapModel": {
+    "qInfo": {
+      "qId": "ColorMapModel_QpQwPt",
+      "qType": "ColorMap"
+    },
+    "qMeta": {
+      "title": "",
+      "description": "",
+      "createdDate": "2023-06-02T09:04:24.953Z",
+      "modifiedDate": "2023-06-02T09:04:24.953Z",
+      "published": false,
+      "publishTime": "1753-01-01T00:00:00.000Z",
+      "approved": false,
+      "qSize": -1,
+      "sourceObject": "",
+      "draftObject": ""
+    },
+    "colorMap": {
+      "colors": [
+        {
+          "value": "Agriculture, Fishing and Foodstuffs",
+          "baseColor": {
+            "color": "#FA9542",
+            "index": -1
+          }
+        },
+        {
+          "value": "Chemicals",
+          "baseColor": {
+            "color": "#919497",
+            "index": -1
+          }
+        },
+        {
+          "value": "Construction",
+          "baseColor": {
+            "color": "#FFC000",
+            "index": -1
+          }
+        },
+        {
+          "value": "Energy, Minerals, Wood",
+          "baseColor": {
+            "color": "#9CB95A",
+            "index": -1
+          }
+        },
+        {
+          "value": "Environment",
+          "baseColor": {
+            "color": "#BD504E",
+            "index": -1
+          }
+        },
+        {
+          "value": "Goods and Miscellaneous Products",
+          "baseColor": {
+            "color": "#7C66A1",
+            "index": -1
+          }
+        },
+        {
+          "value": "Domestic and Leisure Equipment",
+          "baseColor": {
+            "color": "#4AABC9",
+            "index": -1
+          }
+        },
+        {
+          "value": "Health , Medical Equipment",
+          "baseColor": {
+            "color": "#D59896",
+            "index": -1
+          }
+        },
+        {
+          "value": "Mechanics",
+          "baseColor": {
+            "color": "#235866",
+            "index": -1
+          }
+        },
+        {
+          "value": "Pharmaceuticals and Cosmetics",
+          "baseColor": {
+            "color": "#974807",
+            "index": -1
+          }
+        },
+        {
+          "value": "Telecoms",
+          "baseColor": {
+            "color": "#622420",
+            "index": -1
+          }
+        },
+        {
+          "value": "Transport",
+          "baseColor": {
+            "color": "#70AD47",
+            "index": -1
+          }
+        },
+        {
+          "value": "98/48/EC Services",
+          "baseColor": {
+            "color": "#4472C4",
+            "index": -1
+          }
+        }
+      ],
+      "nul": null,
+      "oth": null,
+      "pal": null,
+      "single": null,
+      "usePal": true,
+      "autoFill": true
+    }
+  }
+}

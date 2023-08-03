@@ -1,0 +1,30 @@
+{
+  "qInfo": {
+    "qId": "nmxpDmQ",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "GT_PMS_IMI_SPE_ANS_REQ-3year",
+    "qDef": "[GT_PMS_IMI_SPE_ANS_REQ.2018]",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qLabelExpression": "SysTreeYearsAgo",
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "coloring": {
+      "baseColor": {
+        "color": "#87D11A",
+        "index": -1
+      }
+    }
+  },
+  "qMetaDef": {
+    "title": "GT_PMS_IMI_SPE_ANS_REQ-3year",
+    "description": "",
+    "tags": []
+  }
+}

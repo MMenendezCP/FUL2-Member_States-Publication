@@ -1,0 +1,163 @@
+///$tab Global
+[Requests accepted within one week]:
+LOAD
+	[x1val] 					AS [Country],
+	[y1val] 					AS [GT_PMS_IMI_ONE_WEE.2020],
+	[y2val] 					AS [GT_PMS_IMI_ONE_WEE.2019],
+	[y3val] 					AS [GT_PMS_IMI_ONE_WEE.2018],
+    [y4val] 					AS [GT_PMS_IMI_ONE_WEE.2017]
+
+where [x1val] <> 'Country' and [x1val] <> 'UK';
+
+LIB CONNECT TO '$(text_connection)REST_PUB-GT_PMS_IMI_ONE_WEE.csv';
+
+SQL SELECT 
+	"x1val",
+	"y1val",
+	"y2val",
+	"y3val",
+    "y4val"
+FROM CSV (header on, delimiter ",", quote """") "CSV_source";
+
+
+
+[Requests answered by the deadline agreed in IMI]:
+LOAD
+	[x1val] 					AS [Country],
+	[y1val] 					AS [GT_PMS_IMI_ANS_DEA.2020],
+	[y2val] 					AS [GT_PMS_IMI_ANS_DEA.2019],
+	[y3val] 					AS [GT_PMS_IMI_ANS_DEA.2018],
+	[y4val] 					AS [GT_PMS_IMI_ANS_DEA.2017]
+
+where [x1val] <> 'Country' and [x1val] <> 'UK';
+
+LIB CONNECT TO '$(text_connection)REST_PUB-GT_PMS_IMI_ANS_DEA.csv';
+
+SQL SELECT 
+	"x1val",
+	"y1val",
+	"y2val",
+	"y3val",
+    "y4val"
+FROM CSV (header on, delimiter ",", quote """") "CSV_source";
+
+
+
+
+[Satisfaction with timeliness of replies - as rated by counterparts]:
+LOAD
+	[x1val] 					AS [Country],
+	[y1val] 					AS [GT_PMS_IMI_SAT_TIM.2020],
+	[y2val] 					AS [GT_PMS_IMI_SAT_TIM.2019],
+	[y3val] 					AS [GT_PMS_IMI_SAT_TIM.2018],
+	[y4val] 					AS [GT_PMS_IMI_SAT_TIM.2017]
+
+where [x1val] <> 'Country' and [x1val] <> 'UK';
+
+LIB CONNECT TO '$(text_connection)REST_PUB-GT_PMS_IMI_SAT_TIM.csv';
+
+SQL SELECT 
+	"x1val",
+	"y1val",
+	"y2val",
+	"y3val",
+    "y4val"
+FROM CSV (header on, delimiter ",", quote """") "CSV_source";
+
+
+
+
+[Satisfaction with efforts  made - as rated by counterparts]:
+LOAD
+	[x1val] 					AS [Country],
+	[y1val] 					AS [GT_PMS_IMI_SAT_EFF.2020],
+	[y2val] 					AS [GT_PMS_IMI_SAT_EFF.2019],
+	[y3val] 					AS [GT_PMS_IMI_SAT_EFF.2018],
+	[y4val] 					AS [GT_PMS_IMI_SAT_EFF.2017]
+
+where [x1val] <> 'Country' and [x1val] <> 'UK';
+
+LIB CONNECT TO '$(text_connection)REST_PUB-GT_PMS_IMI_SAT_EFF.csv';
+
+SQL SELECT 
+	"x1val",
+	"y1val",
+	"y2val",
+	"y3val",
+	"y4val"
+FROM CSV (header on, delimiter ",", quote """") "CSV_source";
+
+
+
+[Speed in answering requests (days)]:
+LOAD
+	[x1val] 					AS [Country],
+	[y1val] 					AS [GT_PMS_IMI_SPE_ANS_REQ.2020],
+	[y2val] 					AS [GT_PMS_IMI_SPE_ANS_REQ.2019],
+	[y3val] 					AS [GT_PMS_IMI_SPE_ANS_REQ.2018],
+	[y4val] 					AS [GT_PMS_IMI_SPE_ANS_REQ.2017]
+
+where [x1val] <> 'Country' and [x1val] <> 'UK';
+
+LIB CONNECT TO '$(text_connection)REST_PUB-GT_PMS_IMI_SPE_ANS_REQ.csv';
+
+SQL SELECT 
+	"x1val",
+	"y1val",
+	"y2val",
+	"y3val",
+	"y4val"
+FROM CSV (header on, delimiter ",", quote """") "CSV_source";
+
+
+
+
+
+
+
+
+[Global metrics]:
+// --------------------------------------------------------------
+NoConcatenate
+LOAD
+	[Country],
+	[GT_PMS_IMI_ONE_WEE.2020],
+	[GT_PMS_IMI_ONE_WEE.2019],
+	[GT_PMS_IMI_ONE_WEE.2018],
+    [GT_PMS_IMI_ONE_WEE.2017]
+Resident [Requests accepted within one week];
+left Join
+LOAD
+	[Country],
+	[GT_PMS_IMI_ANS_DEA.2020],
+	[GT_PMS_IMI_ANS_DEA.2019],
+	[GT_PMS_IMI_ANS_DEA.2018],
+	[GT_PMS_IMI_ANS_DEA.2017]
+Resident [Requests answered by the deadline agreed in IMI];
+left Join
+LOAD
+	[Country],
+	[GT_PMS_IMI_SAT_TIM.2020],
+	[GT_PMS_IMI_SAT_TIM.2019],
+	[GT_PMS_IMI_SAT_TIM.2018],
+	[GT_PMS_IMI_SAT_TIM.2017]
+Resident [Satisfaction with timeliness of replies - as rated by counterparts];
+left Join
+LOAD
+	[Country],
+	[GT_PMS_IMI_SAT_EFF.2020],
+	[GT_PMS_IMI_SAT_EFF.2019],
+	[GT_PMS_IMI_SAT_EFF.2018],
+	[GT_PMS_IMI_SAT_EFF.2017]
+Resident [Satisfaction with efforts  made - as rated by counterparts];
+left join
+LOAD
+	[Country],
+	[GT_PMS_IMI_SPE_ANS_REQ.2020],
+	[GT_PMS_IMI_SPE_ANS_REQ.2019],
+	[GT_PMS_IMI_SPE_ANS_REQ.2018],
+	[GT_PMS_IMI_SPE_ANS_REQ.2017]
+Resident [Speed in answering requests (days)];
+
+
+Drop Table [Requests accepted within one week], [Requests answered by the deadline agreed in IMI], [Satisfaction with timeliness of replies - as rated by counterparts], [Satisfaction with efforts  made - as rated by counterparts], [Speed in answering requests (days)];

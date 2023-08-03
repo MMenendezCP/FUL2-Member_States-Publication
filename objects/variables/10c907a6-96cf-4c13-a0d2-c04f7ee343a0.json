@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "10c907a6-96cf-4c13-a0d2-c04f7ee343a0",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "SysActualYear",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "2023",
+  "qIsScriptCreated": true
+}

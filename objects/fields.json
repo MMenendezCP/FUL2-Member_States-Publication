@@ -1,0 +1,791 @@
+[
+  {
+    "qName": "Country",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Global metrics"
+    ]
+  },
+  {
+    "qName": "GT_PMS_IMI_ANS_DEA.2017",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Global metrics"
+    ]
+  },
+  {
+    "qName": "GT_PMS_IMI_ANS_DEA.2018",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Global metrics"
+    ]
+  },
+  {
+    "qName": "GT_PMS_IMI_ANS_DEA.2019",
+    "qTags": [],
+    "qSrcTables": [
+      "Global metrics"
+    ]
+  },
+  {
+    "qName": "GT_PMS_IMI_ANS_DEA.2020",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Global metrics"
+    ]
+  },
+  {
+    "qName": "GT_PMS_IMI_ONE_WEE.2017",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Global metrics"
+    ]
+  },
+  {
+    "qName": "GT_PMS_IMI_ONE_WEE.2018",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Global metrics"
+    ]
+  },
+  {
+    "qName": "GT_PMS_IMI_ONE_WEE.2019",
+    "qTags": [],
+    "qSrcTables": [
+      "Global metrics"
+    ]
+  },
+  {
+    "qName": "GT_PMS_IMI_ONE_WEE.2020",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Global metrics"
+    ]
+  },
+  {
+    "qName": "GT_PMS_IMI_SAT_EFF.2017",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Global metrics"
+    ]
+  },
+  {
+    "qName": "GT_PMS_IMI_SAT_EFF.2018",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Global metrics"
+    ]
+  },
+  {
+    "qName": "GT_PMS_IMI_SAT_EFF.2019",
+    "qTags": [],
+    "qSrcTables": [
+      "Global metrics"
+    ]
+  },
+  {
+    "qName": "GT_PMS_IMI_SAT_EFF.2020",
+    "qTags": [],
+    "qSrcTables": [
+      "Global metrics"
+    ]
+  },
+  {
+    "qName": "GT_PMS_IMI_SAT_TIM.2017",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Global metrics"
+    ]
+  },
+  {
+    "qName": "GT_PMS_IMI_SAT_TIM.2018",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Global metrics"
+    ]
+  },
+  {
+    "qName": "GT_PMS_IMI_SAT_TIM.2019",
+    "qTags": [],
+    "qSrcTables": [
+      "Global metrics"
+    ]
+  },
+  {
+    "qName": "GT_PMS_IMI_SAT_TIM.2020",
+    "qTags": [],
+    "qSrcTables": [
+      "Global metrics"
+    ]
+  },
+  {
+    "qName": "GT_PMS_IMI_SPE_ANS_REQ.2017",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Global metrics"
+    ]
+  },
+  {
+    "qName": "GT_PMS_IMI_SPE_ANS_REQ.2018",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Global metrics"
+    ]
+  },
+  {
+    "qName": "GT_PMS_IMI_SPE_ANS_REQ.2019",
+    "qTags": [],
+    "qSrcTables": [
+      "Global metrics"
+    ]
+  },
+  {
+    "qName": "GT_PMS_IMI_SPE_ANS_REQ.2020",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Global metrics"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_AT.2020",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Austria"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_AT_Sector",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Austria"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_BE.2020",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Belgium"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_BE_Sector",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Belgium"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_BG.2020",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Bulgaria"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_BG_Sector",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Bulgaria"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_CY.2020",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Cyprus"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_CY_Sector",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Cyprus"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_CZ.2020",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Czechia"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_CZ_Sector",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Czechia"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_DE.2020",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Germany"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_DE_Sector",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Germany"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_DK.2020",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Denmark"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_DK_Sector",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Denmark"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_EE.2020",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Estonia"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_EE_Sector",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Estonia"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_EL.2020",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Greece"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_EL_Sector",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Greece"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_ES.2020",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Spain"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_ES_Sector",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Spain"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_FI.2020",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Finland"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_FI_Sector",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Finland"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_FR.2020",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "France"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_FR_Sector",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "France"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_HR.2020",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Croatia"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_HR_Sector",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Croatia"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_HU.2020",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Hungary"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_HU_Sector",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Hungary"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_IE.2020",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Ireland"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_IE_Sector",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Ireland"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_IS.2020",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Iceland"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_IS_Sector",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Iceland"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_IT.2020",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Italy"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_IT_Sector",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Italy"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_LI.2020",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Liechtenstein"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_LI_Sector",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Liechtenstein"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_LT.2020",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Lithuania"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_LT_Sector",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Lithuania"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_LU.2020",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Luxembourg"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_LU_Sector",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Luxembourg"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_LV.2020",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Latvia"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_LV_Sector",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Latvia"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_MT.2020",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Malta"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_MT_Sector",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Malta"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_NL.2020",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Netherlands"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_NL_Sector",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Netherlands"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_NO.2020",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Norway"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_NO_Sector",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Norway"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_PL.2020",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Poland"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_PL_Sector",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Poland"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_PT.2020",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Portugal"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_PT_Sector",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Portugal"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_RO.2020",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Romania"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_RO_Sector",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Romania"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_SE.2020",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Sweden"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_SE_Sector",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Sweden"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_SI.2020",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Slovenia"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_SI_Sector",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Slovenia"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_SK.2020",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Slovakia"
+    ]
+  },
+  {
+    "qName": "GT_PMS_TRI_SK_Sector",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Slovakia"
+    ]
+  }
+]

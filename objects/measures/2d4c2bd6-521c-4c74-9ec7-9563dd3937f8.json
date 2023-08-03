@@ -1,0 +1,34 @@
+{
+  "qInfo": {
+    "qId": "2d4c2bd6-521c-4c74-9ec7-9563dd3937f8",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "GT_PMS_IMI_SAT_TIM-1Year",
+    "qDef": "[GT_PMS_IMI_SAT_TIM.2020]/100",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qLabelExpression": "SysLastYear",
+    "qNumFormat": {
+      "qType": "F",
+      "qnDec": 2,
+      "qUseThou": 0,
+      "qFmt": "0%",
+      "qDec": ".",
+      "qThou": ","
+    },
+    "coloring": {
+      "baseColor": {
+        "color": "#395815",
+        "index": -1
+      }
+    },
+    "isCustomFormatted": false
+  },
+  "qMetaDef": {
+    "title": "GT_PMS_IMI_SAT_TIM-1Year",
+    "description": "SysLastYear",
+    "tags": []
+  }
+}

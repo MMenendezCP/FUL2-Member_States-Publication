@@ -1,0 +1,14 @@
+{
+  "qInfo": {
+    "qId": "d5b1a834-ca07-4044-b761-9964c7f151f3",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "country",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "SK"
+}

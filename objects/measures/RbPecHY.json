@@ -1,0 +1,29 @@
+{
+  "qInfo": {
+    "qId": "RbPecHY",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "EU Avg",
+    "qDef": "(If([GT_PMS_IMI_ONE_WEE_Country] =  'EU Avg.',[GT_PMS_IMI_ONE_WEE.2019]/100 ))\r\n",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "coloring": {
+      "baseColor": {
+        "color": "#F6BD0F",
+        "index": -1
+      }
+    }
+  },
+  "qMetaDef": {
+    "title": "EU Avg",
+    "description": "",
+    "tags": []
+  }
+}

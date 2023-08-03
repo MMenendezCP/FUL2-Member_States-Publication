@@ -1,0 +1,30 @@
+{
+  "qInfo": {
+    "qId": "ZKqe",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "GT_PMS_IMI_ANS_DEA-3year",
+    "qDef": "[GT_PMS_IMI_ANS_DEA.2018]/100",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qLabelExpression": "SysTreeYearsAgo",
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "coloring": {
+      "baseColor": {
+        "color": "#87D11A",
+        "index": -1
+      }
+    }
+  },
+  "qMetaDef": {
+    "title": "GT_PMS_IMI_ANS_DEA-3year",
+    "description": "",
+    "tags": []
+  }
+}

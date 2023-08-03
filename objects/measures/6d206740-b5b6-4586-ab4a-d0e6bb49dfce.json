@@ -1,0 +1,33 @@
+{
+  "qInfo": {
+    "qId": "6d206740-b5b6-4586-ab4a-d0e6bb49dfce",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "GT_PMS_IMI_SPE_ANS_REQ-1Year",
+    "qDef": "[GT_PMS_IMI_SPE_ANS_REQ.2020]",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qLabelExpression": "SysLastYear",
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 2,
+      "qUseThou": 0,
+      "qDec": ".",
+      "qThou": ","
+    },
+    "coloring": {
+      "baseColor": {
+        "color": "#395815",
+        "index": -1
+      }
+    },
+    "isCustomFormatted": false
+  },
+  "qMetaDef": {
+    "title": "GT_PMS_IMI_SPE_ANS_REQ-1Year",
+    "description": "IMI_SPE_ANS_REQ",
+    "tags": []
+  }
+}

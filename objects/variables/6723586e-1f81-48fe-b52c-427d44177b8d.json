@@ -1,0 +1,14 @@
+{
+  "qInfo": {
+    "qId": "6723586e-1f81-48fe-b52c-427d44177b8d",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "name",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "GT_PMS_TRA_ALL"
+}

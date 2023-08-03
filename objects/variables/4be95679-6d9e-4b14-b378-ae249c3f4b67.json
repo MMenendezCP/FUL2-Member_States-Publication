@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "4be95679-6d9e-4b14-b378-ae249c3f4b67",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "SysFourYearsAgo",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "2019",
+  "qIsScriptCreated": true
+}

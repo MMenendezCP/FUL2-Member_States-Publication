@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "202d4c14-cf75-4150-87ca-d37ff6651877",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "SysTreeYearsAgo",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "2020",
+  "qIsScriptCreated": true
+}

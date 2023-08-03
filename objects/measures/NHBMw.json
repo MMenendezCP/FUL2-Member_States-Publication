@@ -1,0 +1,34 @@
+{
+  "qInfo": {
+    "qId": "NHBMw",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "GT_PMS_IMI_ONE_WEE-2Y",
+    "qDef": "[GT_PMS_IMI_ONE_WEE.2019]/100",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qLabelExpression": "SysTwoYearsAgo",
+    "qNumFormat": {
+      "qType": "F",
+      "qnDec": 2,
+      "qUseThou": 0,
+      "qFmt": "0%",
+      "qDec": ".",
+      "qThou": ","
+    },
+    "coloring": {
+      "baseColor": {
+        "color": "#4D771C",
+        "index": -1
+      }
+    },
+    "isCustomFormatted": false
+  },
+  "qMetaDef": {
+    "title": "GT_PMS_IMI_ONE_WEE-2Y",
+    "description": "",
+    "tags": []
+  }
+}

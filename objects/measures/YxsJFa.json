@@ -1,0 +1,30 @@
+{
+  "qInfo": {
+    "qId": "YxsJFa",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "GT_PMS_IMI_SAT_EFF-4years",
+    "qDef": "[GT_PMS_IMI_SAT_EFF.2017]/100",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qLabelExpression": "SysFourYearsAgo",
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "coloring": {
+      "baseColor": {
+        "color": "#BBE684",
+        "index": -1
+      }
+    }
+  },
+  "qMetaDef": {
+    "title": "GT_PMS_IMI_SAT_EFF-4years",
+    "description": "",
+    "tags": []
+  }
+}
